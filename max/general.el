@@ -1,5 +1,7 @@
 ;;; elisp libraries I run from source checkouts:
 (add-to-list 'load-path "~/.emacs.d/vendor")
+(add-to-list 'load-path "~/.emacs.d/vendor/rspec-mode")
+(require 'rspec-mode)
 
 ;; unfortunately some codebases use tabs. =(
 (set-default 'tab-width 2)
