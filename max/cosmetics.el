@@ -1,6 +1,6 @@
-(add-to-list 'load-path "~/.emacs.d/vendor/color-theme-6.6.0")
-(require 'color-theme)
-(color-theme-initialize)
+;;(add-to-list 'load-path "~/.emacs.d/vendor/color-theme-6.6.0")
+;;(require 'color-theme)
+;;(color-theme-initialize)
 
 (defun color-theme-vivid-chalk ()
   "Based on Vivid Chalk, a vim port of Vibrant Ink."
@@ -32,7 +32,7 @@
      (font-lock-variable-name-face ((t (:foreground "#aaccff"))))
      (font-lock-warning-face ((t (:bold t :foreground "Pink"))))
      (paren-face-match-light ((t (:background "#222222"))))
-     (highlight ((t (:background "darkolivegreen"))))
+     (highlight ((t (:background "lightolivegreen"))))
      (italic ((t (:italic t))))
      (modeline ((t (:background "#a5baf1" :foreground "black"))))
      (modeline-buffer-id ((t (:background "#a5baf1" :foreground
