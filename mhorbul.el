@@ -27,3 +27,9 @@
 ;; Activate theme
 (load (concat dotfiles-dir "mhorbul/theme.el"))
 (color-theme-zenburn)
+
+;; Load Perspective
+(require 'perspective)
+;; Toggle the perspective mode
+(persp-mode)
+
